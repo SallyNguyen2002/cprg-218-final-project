@@ -1,0 +1,30 @@
+* {
+	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom Fonts */
+@font-face {
+  font-family: mycontentfont;
+  src: url("font/Montserrat-Medium.ttf");
+}
+
+@font-face {
+  font-family: myheaderfont;
+  src: url("font/MinionPro-Bold.otf");
+}
+
+p {
+  font-family: mycontentfont;
+}
+
+h1, h2, h3, h4 {
+  font-family: myheaderfont;
+}
+
+/* Common */
+body {
+  background-color: #EFEFEF;
+}
+
