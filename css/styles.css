@@ -1,0 +1,50 @@
+* {
+	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom Fonts */
+@font-face {
+  font-family: mycontentfont;
+  src: url("../font/Montserrat-Medium.ttf");
+}
+
+@font-face {
+  font-family: myheaderfont;
+  src: url("../font/MinionPro-Bold.otf");
+}
+
+@font-face {
+  font-family: mysubtitlefont;
+  src: url("../font/MinionPro-Regular.otf");
+}
+
+@font-face {
+  font-family: p-bold;
+  src: url("../font/Montserrat-Bold.ttf");
+}
+
+h1, h2 {
+  font-family: myheaderfont;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #b64926;
+}
+
+h3 {
+  font-family: mysubtitlefont;
+  color: #b64926;
+}
+
+h4 {
+  font-family: p-bold;
+  font-size: 1.2rem;
+}
+
+p {
+  font-family: mycontentfont;
+}
+
