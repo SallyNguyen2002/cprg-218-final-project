@@ -324,3 +324,32 @@ header img{
   cursor: pointer;
   font-size: 1rem;
 }
+
+/* Footer */
+footer {
+  background-color: #1B484E;
+  color: white;
+  display: grid;
+  justify-content: center;
+  row-gap: 2rem;
+  text-align: center;
+  padding: 3rem;
+}
+
+footer img {
+  text-align: center;
+  margin: auto;
+  width: 30%;
+}
+
+.smedia{
+  display: flex;
+  font-size: 2.5rem;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.smedia i:hover {
+  color: #BC3600;
+  transition: .3s;
+}
