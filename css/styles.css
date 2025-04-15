@@ -122,3 +122,96 @@ nav button:hover{
   transition: .5s;
 }
 
+/* Hide mobile items by default */
+.nav-toggle,
+.mobile-nav {
+  display: none;
+}
+
+/* MOBILE LAYOUT */
+@media (max-width: 1000px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    height: auto;
+    position: fixed;
+    width: 100%;
+    background: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+  }
+
+  .nav-logo img {
+    max-width: 100px;
+  }
+
+  .weather-info {
+    font-family: mycontentfont;
+    color: #1B484E;
+    text-align: center;
+    flex-grow: 1;
+    margin: 0;
+  }
+
+  .nav-toggle {
+    display: block;
+    font-size: 1.6rem;
+    color: #1B484E;
+    cursor: pointer;
+  }
+
+  .nav-list,
+  nav button {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: none;
+    flex-direction: column;
+    background: white;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 1rem;
+    gap: 1rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  .mobile-nav a {
+    color: #1B484E;
+    text-decoration: none;
+    font-family: mycontentfont;
+  }
+
+  .mobile-nav a:hover {
+    color: #BC3600;
+  }
+
+/* Mobile book button style */
+  .mobile-book-btn {
+    font-size: 1rem;
+    border: solid 2px #1B484E;
+    background-color: white;
+    color: #1B484E;
+    height: 40px;
+    width: 50%;
+    margin-top: 1rem;
+    display: block;
+    margin: auto;
+  }
+
+  .mobile-book-btn:hover {
+    background-color: #BC3600;
+    border: solid 2px white;
+    color: white;
+    transition: 0.3s;
+  }
+
+  .mobile-nav.active {
+    display: flex;
+  }
+}
