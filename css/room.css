@@ -57,3 +57,21 @@
     font-family: mycontentfont;
 }
 
+@media screen and (max-width:1000px){
+	/*Any screen resolution from
+	0-1000px wide*/
+    #room-option {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .eachroom {
+        min-height: 50rem;
+    }
+}
+@media screen and (max-width:768px){
+	/*Any screen resolution from
+	0-768px wide*/
+    .eachroom {
+        min-height: 43rem;
+    }
+}
