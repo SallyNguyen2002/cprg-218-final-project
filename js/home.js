@@ -56,3 +56,24 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
 
+  // Experience toggle
+  const options = document.querySelectorAll('.exp-content-option');
+  const image = document.querySelector('#exp-img img');
+
+  options.forEach(option => {
+    option.addEventListener('click', () => {
+      const newImage = option.getAttribute('data-image');
+
+      // Smooth fade effect
+      image.style.opacity = 0;
+
+      setTimeout(() => {
+        image.src = newImage;
+        image.style.opacity = 1;
+      }, 300);
+
+      // Update active state
+      options.forEach(opt => opt.classList.remove('active'));
+      option.classList.add('active');
+    });
+  });
