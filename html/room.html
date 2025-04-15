@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shangri-La</title>
+  <link rel="stylesheet" href="../css/styles.css"/>
+  <link rel="stylesheet" href="../css/room.css"/>
+  <script src="https://kit.fontawesome.com/906e56f202.js" crossorigin="anonymous"></script>
+  <script src="../js/home.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="nav-logo">
+              <img src="../img/photos/1x/Asset 1-8.png" alt="Logo">
+            </a>
+          
+            <div class="weather-info">Cancun: <span id="weather">Loading...</span></div>
+          
+            <div class="nav-toggle" id="nav-toggle">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+          
+            <div class="nav-list">
+              <a href="index.html">HOME</a>
+              <a href="room.html">ROOM</a>
+              <a href="dinning.html">DINING</a>
+              <a href="activity.html">ACTIVITIES</a>
+              <a href="spa.html">SPA</a>
+              <a href="testi.html">TESTIMONIALS</a>
+            </div>
+          
+            <button>BOOK NOW</button>
+          
+            <!-- Hidden dropdown for mobile -->
+            <div class="mobile-nav" id="mobile-nav">
+              <a href="index.html">HOME</a>
+              <a href="room.html">ROOM</a>
+              <a href="dinning.html">DINING</a>
+              <a href="activity.html">ACTIVITIES</a>
+              <a href="spa.html">SPA</a>
+              <a href="testi.html">TESTIMONIALS</a>
+              <button class="mobile-book-btn" onclick="location.href='room.html'">BOOK NOW</button>
+            </div>
+          </nav>
+
+        <section>
+            <img src="../img/photos/hotel-1979406_1920.jpg" alt="Beach View" class="hero-bg">
+            <div class="booking-panel">
+              <div class="booking-field">
+                <p>Check In</p>
+                <input id="checkin" type="text" placeholder="--" readonly />
+                <i id="openCheckin" class="fa-solid fa-caret-down"></i>
+              </div>
+              <div class="booking-field">
+                <p>Check Out</p>
+                <input id="checkout" type="text" placeholder="--" readonly />
+                <i id="openCheckout" class="fa-solid fa-caret-down"></i>
+              </div>
+              <div class="booking-field">
+                <p>Guests</p>
+                <input id="guests" type="text" placeholder="--" readonly />
+                <i id="openGuest" class="fa-solid fa-caret-down"></i>
+                <ul id="guestDropdown" class="dropdown hidden">
+                  <li data-value="1">1</li>
+                  <li data-value="2">2</li>
+                  <li data-value="3">3</li>
+                  <li data-value="4">4</li>
+                  <li data-value="5">5+</li>
+                </ul>
+              </div>
+              <button class="availability-btn" id="checkAvailabilityBtn" onclick="location.href='room.html'">Check Availability</button>
+            </div>
+          </section>
+    </header>
+    <footer>
+        <div class="smedia">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-square-x-twitter"></i>
+        </div>
+        <img src="../img/photos/1x/Asset 2-8.png">
+        <p>Photographs by Easa Shamih, Raj Deutunder, and Paryitno under a Creative Commons Attribution 2.0 Generic (CC BY 2.0) license</p>
+    </footer>
+</body>
