@@ -48,3 +48,18 @@ p {
   font-family: mycontentfont;
 }
 
+/* Common */
+body {
+  background-color: #EFEFEF;
+}
+
+li {
+  list-style-type: none;
+  font-family: mycontentfont;
+  font-size: .9rem;
+}
+
+main {
+  padding: 2rem 5rem;
+}
+

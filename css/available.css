@@ -1,0 +1,16 @@
+body {
+  font-family: sans-serif; 
+  background: #f9f9f9;
+}
+
+h1 {
+  text-align: center;
+  color: #b64926;
+  margin-top: 2rem;
+}
+
+#date-range {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
