@@ -21,3 +21,74 @@ hr {
     border: solid .5px #1B484E;
 }
 
+.activity-button{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-bottom: 3rem;
+}
+
+.activity-list h2{
+    color: #1B484E;
+    text-align: center;
+    margin: 3rem 0 2rem 0;
+    text-decoration: underline;
+}
+
+.activity-list{
+    margin-bottom: 3rem;
+}
+
+.activity-button button {
+    padding: 1rem 1.5rem;
+    border: 2px solid #b64926;
+    border-radius: 2rem;
+    background-color: white;
+    color: #b64926;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.activity-button button:hover {
+    background-color: #b64926;
+    color: white;
+}
+  
+.activity-button button.active {
+    background-color: #b64926;
+    color: white;
+  }  
+
+.activity-option {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    justify-items: center;
+}
+
+.activity-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.activity-list li {
+    text-align: center;
+    margin: 1rem;
+}
+
+@media screen and (max-width:768px){
+    .activity-option {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        justify-items: center;
+    }
+    .activity-button{
+        display: grid;
+        justify-content: center;
+        gap: 2rem;
+    }
+}
