@@ -77,3 +77,33 @@ document.addEventListener("DOMContentLoaded", function () {
       option.classList.add('active');
     });
   });
+
+
+  // Display real-time weather
+  const apiKey = '4d9c50289f80ce03434f5bb52255e7c0';
+  const city = 'Cancun';
+  const weatherElement = document.getElementById('weather');
+
+  async function fetchWeather() {
+    try {
+      const response = await fetch(
+        `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`
+      );
+
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+
+      const data = await response.json();
+
+      const temperature = Math.round(data.main.temp);
+      const description = data.weather[0].description;
+
+      weatherElement.textContent = `${temperature}°C ${description}`;
+    } catch (error) {
+      console.error('Weather fetch error:', error);
+      weatherElement.textContent = 'Weather unavailable';
+    }
+  }
+
+  fetchWeather();
