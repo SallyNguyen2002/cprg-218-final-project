@@ -44,3 +44,15 @@ window.onload = function () {
       }
   });
 
+};
+  
+document.addEventListener("DOMContentLoaded", function () {
+  // Smaller screen navigation
+  const toggle = document.getElementById("nav-toggle");
+  const mobileNav = document.getElementById("mobile-nav");
+
+  toggle.addEventListener("click", () => {
+    mobileNav.classList.toggle("active");
+  });
+
+
