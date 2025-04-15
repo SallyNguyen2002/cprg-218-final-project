@@ -190,3 +190,26 @@ document.addEventListener("DOMContentLoaded", function () {
       modal.style.display = 'none';
     }
   });
+
+  // Check availability option
+  document.getElementById("checkAvailabilityBtn").addEventListener("click", () => {
+    const checkin = document.getElementById("checkin").value;
+    const checkout = document.getElementById("checkout").value;
+    const guests = document.getElementById("guests").value;
+  
+    if (!checkin || !checkout || !guests) {
+      alert("Please fill in all fields before proceeding.");
+      return;
+    }
+  
+    // Store data to use on the next page
+    const query = new URLSearchParams({
+      checkin,
+      checkout,
+      guests
+    }).toString();
+  
+    window.location.href = `available.html?${query}`;
+  });
+  
+});
