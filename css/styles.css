@@ -63,3 +63,62 @@ main {
   padding: 2rem 5rem;
 }
 
+/* Navigation */
+nav{
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 4fr 1fr;
+  justify-content: center;
+  padding: 20px;
+  height: 80px;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  z-index: 100;
+}
+
+nav img {
+  display: block;
+  margin: auto;
+  max-width: 130px;
+}
+
+.nav-list{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: .75rem;
+}
+
+.nav-list a{
+  font-family: mycontentfont;
+  text-decoration: none;
+  color: #1B484E;
+}
+
+.nav-list a:hover{
+  color: #BC3600;
+}
+
+.weather-info {
+  margin-left: 1.5rem;
+  color: #1B484E;
+  font-family: mycontentfont;
+  margin-top: .70rem;
+}
+
+nav button{
+  font-size: 1rem;
+  border: solid 2px #1B484E;
+  background-color: white;
+  color: #1B484E;
+  height: 40px;
+}
+
+nav button:hover{
+  background-color: #BC3600;
+  border: solid 2px white;
+  color: white;
+  transition: .5s;
+}
+
