@@ -46,6 +46,37 @@
         <button class="mobile-book-btn" onclick="location.href='room.html'">BOOK NOW</button>
       </div>
     </nav>
+    
+      <section>
+        <img src="../img/photos/sunset.jpg" alt="Beach View" class="hero-bg">
+        <div class="booking-panel">
+          <div class="booking-field">
+            <p>Check In</p>
+            <input id="checkin" type="text" placeholder="--" readonly />
+            <i id="openCheckin" class="fa-solid fa-caret-down"></i>
+          </div>
+          <div class="booking-field">
+            <p>Check Out</p>
+            <input id="checkout" type="text" placeholder="--" readonly />
+            <i id="openCheckout" class="fa-solid fa-caret-down"></i>
+          </div>
+          <div class="booking-field">
+            <p>Guests</p>
+            <input id="guests" type="text" placeholder="--" readonly />
+            <i id="openGuest" class="fa-solid fa-caret-down"></i>
+            <ul id="guestDropdown" class="dropdown hidden">
+              <li data-value="1">1</li>
+              <li data-value="2">2</li>
+              <li data-value="3">3</li>
+              <li data-value="4">4</li>
+              <li data-value="5">5+</li>
+            </ul>
+          </div>
+          <button class="availability-btn" id="checkAvailabilityBtn">Check Availability</button>
+        </div>
+      </section>
+  </header>
+  <main>
   <footer>
     <div class="smedia">
       <i class="fa-brands fa-facebook"></i>
