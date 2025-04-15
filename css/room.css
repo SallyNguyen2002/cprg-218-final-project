@@ -1,0 +1,11 @@
+#room-header {
+    text-align: center;
+    row-gap: 1.2rem;
+    display: grid;
+    margin-top: 8rem;
+}
+
+#room-header hr {
+    margin: 1rem 2rem 4rem 2rem;
+}
+
