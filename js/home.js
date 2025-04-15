@@ -165,3 +165,28 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   };    
 
+  document.querySelectorAll('#room-content .room-option').forEach(option => {
+    const link = option.querySelector('a');
+    link.addEventListener('click', function (e) {
+      e.preventDefault();
+      const roomName = option.querySelector('h4').textContent.trim();
+
+      if (rooms[roomName]) {
+        const room = rooms[roomName];
+        modalTitle.textContent = roomName;
+        modalDescription.innerHTML = room.description;
+        modalImage.src = room.image;
+        modal.style.display = 'block';
+      }
+    });
+  });
+
+  closeButton.addEventListener('click', function () {
+    modal.style.display = 'none';
+  });
+
+  window.addEventListener('click', function (event) {
+    if (event.target === modal) {
+      modal.style.display = 'none';
+    }
+  });
