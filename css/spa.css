@@ -4,3 +4,47 @@
     row-gap: 1rem;
 }
 
+.spa {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 4rem 0;
+    gap: 3rem;
+}
+
+.spa-info {
+    display: grid;
+    row-gap: 1rem;
+}
+
+.spa-info h2 {
+    color: #1B484E;
+}
+
+.spa-info li {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.spa-img img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.item-name {
+margin-right: 10px;
+white-space: nowrap;
+font-family: p-bold;
+}
+
+.line {
+flex-grow: 1;
+border-bottom: 1px solid #1B484E;
+margin: 0 10px;
+}
+
+.item-price {
+white-space: nowrap;
+}
+
