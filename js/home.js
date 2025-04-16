@@ -130,7 +130,7 @@ document.addEventListener("DOMContentLoaded", function () {
           <li>Mini-bar</li>
         </ul>
       `,
-      image: "../img/photos/hotel-1191726_1920.jpg"
+      image: "/img/photos/hotel-1191726_1920.jpg"
     },
     "Beachfront Suite": {
       description: `
@@ -146,7 +146,7 @@ document.addEventListener("DOMContentLoaded", function () {
           <li>Mini-bar</li>
         </ul>
       `,
-      image: "../img/photos/hotel-room-1447201_1920.jpg"
+      image: "/img/photos/hotel-room-1447201_1920.jpg"
     },
     "Garden View Family Room": {
       description: `
@@ -161,7 +161,7 @@ document.addEventListener("DOMContentLoaded", function () {
           <li>Mini-bar</li>
         </ul>
       `,
-      image: "../img/photos/hotel-1191726_1920.jpg"
+      image: "/img/photos/hotel-1191726_1920.jpg"
     }
   };    
 

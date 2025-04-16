@@ -7,22 +7,22 @@
 /* Custom Fonts */
 @font-face {
   font-family: mycontentfont;
-  src: url("../font/Montserrat-Medium.ttf");
+  src: url("/font/Montserrat-Medium.ttf");
 }
 
 @font-face {
   font-family: myheaderfont;
-  src: url("../font/MinionPro-Bold.otf");
+  src: url("/font/MinionPro-Bold.otf");
 }
 
 @font-face {
   font-family: mysubtitlefont;
-  src: url("../font/MinionPro-Regular.otf");
+  src: url("/font/MinionPro-Regular.otf");
 }
 
 @font-face {
   font-family: p-bold;
-  src: url("../font/Montserrat-Bold.ttf");
+  src: url("/font/Montserrat-Bold.ttf");
 }
 
 h1, h2 {
