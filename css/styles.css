@@ -22,7 +22,7 @@
 
 @font-face {
   font-family: p-bold;
-  src: url("font/Montserrat-Bold.ttf");
+  src: url("../font/Montserrat-Bold.ttf");
 }
 
 h1, h2 {
