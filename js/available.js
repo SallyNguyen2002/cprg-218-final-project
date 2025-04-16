@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const rooms = [
     {
       name: "Ocean View Deluxe Room",
-      image: "/img/photos/single.jpg",
+      image: "img/photos/single.jpg",
       desc: "Stunning ocean views from your private balcony.",
       weekday: 110,
       weekend: 130,
@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       name: "Beachfront Suite",
-      image: "/img/photos/king.jpg",
+      image: "img/photos/king.jpg",
       desc: "Step directly onto the sand from your spacious suite.",
       weekday: 160,
       weekend: 190,
@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       name: "Garden View Family Room",
-      image: "/img/photos/hotel-1191726_1920.jpg",
+      image: "img/photos/hotel-1191726_1920.jpg",
       desc: "Perfect for families with garden views and extra space.",
       weekday: 160,
       weekend: 190,
@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       name: "Premium Oceanfront Suite with Plunge Pool",
-      image: "/img/photos/hotel-room-1447201_1920.jpg",
+      image: "img/photos/hotel-room-1447201_1920.jpg",
       desc: "Luxury suite with private plunge pool and ocean view.",
       weekday: 200,
       weekend: 250,
@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       name: "Accessible Room",
-      image: "/img/photos/single.jpg",
+      image: "img/photos/single.jpg",
       desc: "Comfortable and accessible for all guests.",
       weekday: 180,
       weekend: 210,
