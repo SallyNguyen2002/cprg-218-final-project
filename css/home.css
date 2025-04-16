@@ -192,3 +192,46 @@
   transition: .3s;
 }
 
+@media screen and (max-width: 768px) {
+  #experience {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
+    gap: 2rem;
+  }
+
+  #exp-content {
+    order: 1;
+    text-align: center;
+  }
+
+  #experience h1 {
+    font-size: 1.6rem;
+  }
+
+  #experience h3 {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+
+  .exp-content-option {
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  #exp-img {
+    order: 2;
+    width: 100%;
+    text-align: center;
+  }
+
+  #exp-img img {
+    max-width: 100%;
+  }
+
+  #testi{
+    margin: 0;
+    padding: 2rem;
+  }
+}
