@@ -42,3 +42,11 @@ hr {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+@media (max-width: 1000px) {
+    .restaurants{
+        grid-template-columns: 1fr;
+    }
+    .dining-img{
+        display: none;
+    }
+}
