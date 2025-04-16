@@ -8,3 +8,46 @@
     margin-bottom: 1rem;
 }
 
+/* Experience */
+#experience {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2rem;
+  gap: 4rem;
+  background-color: white;
+  align-items: center;
+}
+
+ #experience h1 {
+  margin-bottom: 2rem;
+ }
+
+#experience h3 {
+  margin-top: 1.5rem;
+  text-align: left;
+  color: #b64926;
+ }
+
+.exp-content-option {
+  padding: 1.5rem;
+  cursor: pointer;
+  transition: 0.3s;
+ }
+
+.exp-content-option:hover {
+  background-color: #b64926;
+  color: white;
+}
+
+.exp-content-option.active {
+  background-color: #b64926;
+  color: white;
+}
+
+#experience img {
+  margin: auto;
+  width: 100%;
+  max-width: 500px;
+  transition: opacity 0.5s ease;
+}
+
