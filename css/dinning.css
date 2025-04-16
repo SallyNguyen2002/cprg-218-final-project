@@ -1,0 +1,11 @@
+#dinning-about{
+    text-align: center;
+    display: grid;
+    row-gap: 1rem;
+}
+
+hr {
+    width: 50rem;
+    margin: auto;
+    border: solid .5px #1B484E;
+}
