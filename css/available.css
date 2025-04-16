@@ -14,3 +14,40 @@ h1 {
   margin-bottom: 2rem;
   color: #333;
 }
+
+.room-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+.room-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.room-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.room-card-content {
+  padding: 1rem 1.5rem;
+}
+
+.room-card h2 {
+  color: #b64926;
+  margin-bottom: 0.5rem;
+}
+
+.room-card p {
+  margin-bottom: 0.5rem;
+}
+
+.room-price {
+  font-weight: bold;
+  color: #1B484E;
+}
