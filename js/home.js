@@ -22,6 +22,10 @@ window.onload = function () {
     });
   }
 
+  if (typeof flatpickr === 'undefined') {
+    console.error("Flatpickr is not loaded!");
+  }  
+
   const guestInput = document.getElementById("guests");
   const guestIcon = document.getElementById("openGuest");
   const guestDropdown = document.getElementById("guestDropdown");
