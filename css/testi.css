@@ -1,0 +1,21 @@
+.testimonials {
+  background-color: #f8f8f8;
+  text-align: center;
+  padding: 3rem 2rem;
+  font-family: mycontentfont;
+}
+
+.testimonials h2 {
+  font-size: 2rem;
+  color: #1B484E;
+}
+
+.testimonials .subtext {
+  margin-top: 0.5rem;
+  color: #333;
+}
+.testimonials .closing {
+  margin-top: 2rem;
+  font-style: italic;
+  color: #444;
+}
