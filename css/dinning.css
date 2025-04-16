@@ -4,8 +4,41 @@
     row-gap: 1rem;
 }
 
+.restaurants {
+    margin: 4rem 0;
+    gap: 8rem;
+    text-align: center;
+}
+
+.dining-img img{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+
+.restaurants-info h2 {
+    color: #1B484E;
+}
+
+.restaurants-info ul {
+    margin: 1.5rem 3rem;
+}
+
 hr {
     width: 50rem;
     margin: auto;
     border: solid .5px #1B484E;
 }
+
+.restaurant-img img {
+    display: block;
+    width: 100%;
+}
+
+.restaurant-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
